@@ -10,6 +10,7 @@
     <h1>Hello from laravel</h1>
     <p>Hello {{ $name }}</p>
 
+    <a href="{{ url('todo') }}">Todo Link</a>
     <h3>My todo list</h3>
     <ul>
         @foreach($todos as $todo)
